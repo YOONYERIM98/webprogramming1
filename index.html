@@ -1,0 +1,169 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <title>201768006 윤예림</title>
+   
+    <style>
+    
+    * { box-sizing: border-box; }
+  
+    #c2 { background :rgba(255, 255, 255, 0.9); }     
+
+    #c3 { background :rgba(255, 255, 255, 0.9); }
+
+    #c4 { position: none; }
+
+    #c2 { float: left; width: 10%;
+           margin-left: 10%;
+          }
+
+    #c3 { float: left; width: 50%;
+           margin: 5px 26px;        
+          }
+
+    #c4 { float: left; width: 16%;
+          
+          }
+    
+    #c2, #c3, #c4 { 
+                       margin-top: 5px;
+                       border-radius : 10px; }
+
+    #c5, #c6, #c7 { background : rgba(255, 255, 255, 0.9); 
+                        color: #5D5D5D;
+                        border-radius : 10px;
+                        margin-bottom: 20px;
+                        width: 100%; height: 30.4%;
+                        overflow: hidden;
+                         }
+
+    
+    #c7 {  height: 32% ;
+            margin-bottom: 0px;}
+
+    #c2 a { display: block; 
+              border-radius : 10px; }   
+
+    #container { height: 700px; }
+
+    #c1 { height: 13%; 
+            font-size: 25px;
+            text-decoration: overline; 
+          }
+
+    #c2, #c3, #c4 {height: 80%; }
+
+    #c2 { z-index: 1;
+         overflow-x: hidden; 
+        }
+
+    #c2 a { color: white;
+             padding: 16px;
+             font-size: 18px;
+             text-shadow: 1px 2px 5px #FFCBCB,  0 0 40px red, 0 0 5px #FFCBCB; color : red;
+             text-decoration : none;
+           }
+
+    #c2 a:hover { background: #FFA7A7;
+                    color: white;
+                   }
+
+    #c1, #c2 { text-align: center; }
+
+
+    #c1 a { text-decoration : none;
+              animation-name: f; 
+              animation-duration: 3s;
+              animation-iteration-count: infinite;              
+           }
+
+
+    @keyframes f{ 0% { color: #ff2a2a; }
+                        15% { color: #ff7a2a; }
+                        30% { color: #ffc52a; }
+                        45% { color: #43ff2a; }
+                        60% { color: #2a89ff; }
+                        75% { color: #202082; }
+                        90% { color: #6b2aff; } 
+                        100% { color: #e82aff; }
+                       } 
+
+    body { background-image: url(./image/음식.gif); 
+             background-repeat: repeat;
+	
+            }
+
+
+    iframe { margin: 0px 0px; padding: 0px 0px; border: 0px;
+	   width: 100%; height: 100%; }
+
+
+    #b1 { color: white;
+            padding: 16px;
+            font-size: 18px;
+            text-shadow: 1px 2px 5px #FFCBCB,  0 0 40px red, 0 0 5px #FFCBCB; color : red;
+            text-decoration : none;
+            text-align: center; }
+
+    #b2 {   margin: 20px 40px;
+              list-style-position: inside; } 
+
+
+    </style>
+
+</head>
+
+<body>
+    <audio src = "./music/폴킴.mp3" autoplay loop  ></audio>
+<div id = "container">
+
+   <div id = "c1"><a href = "./index.html" ><h1>☞ 맛집 찾기 ☜</h1></a></div>
+
+	
+   <div id = "c2"> 
+	<a href = "./테이블.html" target = "id"> ▷이번달 맛집 탐방 </a ><br>
+	<a href = "./후기.html" target = "id"> ▶음식점 후기 </a ><br>
+            <a href = "./입력양식.html" target = "id"> ▷취향 점검♬ </a ><br>
+	<a href = "./여기 맛있다 추천좀!.html" target = "id""> ▶여기 맛있다 추천좀! </a ><br>
+</div>
+
+   <div id = "c3"> 
+	<iframe src ="./프레임.html" name = "id"  seamless ></iframe>
+   </div>
+
+  <div id = "c4"> 
+            <div id = "c5"> <div id = "b1">&nbsp; &nbsp;맛집 TOP3  </div>
+                                   <ol id = "b2"> 
+                                        <li> 양대감</li>
+                                        <li> 돌판구이</li>  
+                                        <li> 설가</li>
+                                   </ol>
+                      
+           </div>
+
+            <div id = "c6"> <p id = "b1">&nbsp; &nbsp;최근 게시물
+                                   <ul id = "b2"> 
+                                        <li> 이모네갈비</li>
+                                        <li> 설가</li>  
+                                        <li> 해뜨는마을</li>
+                                   </ul>
+		        </P>
+                                 
+           </div>
+            <div id = "c7"> <P id = "b1">&nbsp; &nbsp;가볼 맛집
+                                   <ol id = "b2"> 
+                                        <li> 경화분식</li>
+                                        <li> 너구리식당</li>  
+                                        <li> 욜로타고</li>
+                                   </ol>
+                              </P>
+          </div>
+</div>
+
+</div>
+
+
+</body>
+</html>
